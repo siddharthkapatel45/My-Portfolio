@@ -1,0 +1,505 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+
+    margin:0px;
+    padding: 0px;
+    color: white;
+}
+body{
+
+   
+   color: white;
+
+background-color:rgb(13 13 37);
+}
+body.white-mode {
+    background-color: white;
+    color: black;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    
+    background-color:#14143b;
+    
+    height: 90px;
+}
+.left{
+
+
+    font-family:  cursive;
+    margin-right: 25%;
+    font-size: 40px; 
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg); */
+    
+   
+    
+}
+.right{
+   
+    font-family: 'Rajdhani', sans-serif;
+    width: 40%;
+    font-size: 25px;
+
+
+
+
+}
+.right>ul{
+    display: flex;
+    align-items: center;
+   
+    list-style: none;
+    justify-content: space-evenly;
+ 
+
+}
+.right>ul>li{
+
+    margin-left: 51%;
+}
+.right>ul>li>a{
+
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.right>ul>li>a:hover,#home{
+color: purple;
+    border-bottom: 1px solid purple;
+
+}
+section{
+
+    display: flex;
+    justify-content: space-around;
+}
+.leftsection{
+    font-size: 39px;
+    
+    width:35%;
+    height: 30%;
+    margin-top: 10%;
+    font-family: 'Rajdhani', sans-serif;
+}
+.rightsection{
+
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height: 30%;
+    margin-top: 5%;
+}
+.rightsection img{
+
+    width:350px;
+    height: 350px;
+}
+#name{
+margin-left: 23px;
+color: purple;
+}
+#name1{
+
+    color: purple;
+}
+#work{
+    border-top: 1px solid white;
+    display: flex;
+    height: 300px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+   
+
+
+}
+.info{
+    border: 1px solid white;
+    width:17%;
+    height: 100%;
+    margin-top: 70px;
+   text-align: center;
+   border-radius: 15px;
+
+
+
+}
+#information2,#information3{
+
+display: none;    
+
+}
+.info:hover{
+
+    border: 1px solid black;
+}
+#text{
+    font-family: 'Rajdhani', sans-serif;
+width:29%;
+ 
+    font-size: 30px;
+    position: relative;
+    top:160px;
+    text-align: center;
+    animation-name: sidd;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+#text1{
+    font-family: 'Rajdhani', sans-serif;
+    width:29%;
+     
+    width: 25%;
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    animation-name: sidd;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+#projects{
+
+   
+    position: relative;
+    top:103px;
+}
+#extra_text{
+
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    right: 3%;
+    color: silver;
+}
+@keyframes sidd {
+    0%{
+
+        color: white;
+    }
+    50%{
+        color: purple;
+    }
+    100%{
+        color: white;
+    }
+    
+}
+.duration{
+    font-size: 23px;
+    margin-top: 9px;
+
+
+}
+.Post
+{
+    font-size: 20px;
+    margin-top: 9px;
+
+}
+.discriptive{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 25px;
+
+
+}
+.next,.left,.right{
+    width:6%;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 60px;
+   margin-left: 23%;
+   margin: auto;
+        
+
+
+}
+#left1,#right1{
+    width:23%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 60px;
+   
+   
+
+}
+#left1{
+   
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 60px;
+   
+        width:20%;
+        height: 45px;
+        margin-left: 20%;
+}
+
+.left{
+width:36px;
+height:35px;
+
+}
+#button{
+    display: none;
+    width:50%;
+    margin: auto;
+}
+
+#resume{
+
+    cursor: pointer;
+    position: relative;
+    bottom: 120px;
+    left:9%;
+    padding: 6px;
+    width:12%;
+    border-radius: 16px;
+    background-color: white;
+}
+#resume>a{
+    background-color: white;
+    color: black;
+    
+font-size: 20px;
+    text-decoration: none;
+}
+#resume>a:hover{
+    color:purple;
+    
+}
+#projects{
+    position: relative;
+bottom: 30px;
+    width:50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.container {
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 45px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 23px;
+    justify-content: space-around;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    height: 500px;
+    padding: 0px;
+    margin: auto;
+}
+.project_text{
+    height: 360px;
+    width: 70%;
+    display: flex;
+
+    flex-direction: column;
+
+}
+#title{
+font-size: 50px;
+    text-align: center;
+color: black;
+}
+#mylink{
+font-size: 80%;
+margin-top: 10px;
+
+
+}
+
+#information{
+    margin-top:36px;
+font-size: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#information_1{
+    margin-top:36px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+#mylink{
+    color: black;
+}
+.symbols{
+position: relative;
+bottom: 100px;
+left:9.5%;
+display: flex;
+width:11%;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+justify-content: space-between;
+
+}
+@keyframes symbol {
+    0%{
+        
+    }
+    50%{
+border-bottom: 1px solid white;
+box-shadow: 1px 1px 4px white;
+
+    }
+    100%{
+
+
+    }
+    
+}
+.icons{
+    width:23px;
+    height: 23px;
+}
+#night_mode{
+
+    position: relative;
+    align-self: flex-end;
+    
+}
+.left{
+position: relative;
+top:-23px;
+left:0%;
+
+}
+@media  screen and (max-width:1000px) {
+   .right{
+    font-size: 18px;
+   }
+ .left{
+    left: -14%;
+ }
+ .navbar{
+
+    justify-content: space-evenly;
+ }
+ .leftsection{
+    font-size: 33px;
+}
+#resume{
+    width:17%;
+}
+#resume>a{
+    font-size: 17px;
+}
+.symbols{
+    width:22%;
+}
+.info{
+    width:34%;
+}
+.next{
+    width:23%;
+}
+.container{
+    width:60%;
+}
+}
+@media screen and (max-width:700px) {
+    
+    .navbar{
+        width:170vw;
+        justify-content: space-evenly;
+
+    }
+    .leftsection{
+        font-size: 33px;
+    }
+
+
+    .right{
+        font-size: 18px;
+       }
+     .left{
+        left: -14%;
+     }
+     .navbar{
+    
+        justify-content: space-evenly;
+     }
+     .leftsection{
+        font-size: 25px;
+        width:55%;
+        margin-top: 29%;
+        margin-left: 23px;
+    }
+    .rightsection{
+        position: relative;
+        right: -49%;
+        justify-content: flex-start;
+    }
+  section{
+    
+    justify-content: space-evenly;
+  }
+    #resume{
+        width:25%;
+        padding: 0px;
+        margin-top: 12px;
+    }
+    #resume>a{
+        font-size: 14px;
+    }
+    .symbols{
+        width:40%;
+    }
+    .info{
+        width:60%;
+    }
+#text{
+    font-size: 16px;
+}
+#work{
+    width:170vw;
+}
+
+    .next{
+        width:23%;
+    }
+    #projects{
+
+        width:100%;
+    }
+    .container{
+        width:120%;
+        height: 18%;
+        font-size: 18px;
+        margin-left: 32%;
+    }
+    .project_text{
+        width: 200%;
+    }
+    #title{
+        font-size: 38px;
+        
+    }
+
+    
+}
